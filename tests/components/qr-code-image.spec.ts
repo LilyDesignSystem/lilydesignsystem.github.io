@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-const slug = 'qr-code';
+const slug = 'qr-code-image';
 const title = 'QR Code';
 
 test.describe('component page: ' + slug, () => {

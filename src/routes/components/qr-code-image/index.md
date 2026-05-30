@@ -19,9 +19,9 @@ The component serves as a semantic container that consumers populate with their 
 ## Usage
 
 ```html
-<QrCode label="Scan to visit example.com">
+<QrCodeImage label="Scan to visit example.com">
   <svg><!-- QR code SVG paths --></svg>
-</QrCode>
+</QrCodeImage>
 ```
 
 ## Keyboard Interactions
@@ -35,9 +35,9 @@ None -- this component is a passive display container.
 
 ## When to Use
 
-- Use QrCode to encode URLs, text, or contact information for quick mobile scanning in marketing materials, event check-ins, or payment flows.
-- Use QrCode when users need to transfer information from screen to mobile device without manual typing.
-- Avoid using QrCode as the sole means of sharing a link; always provide a text-based alternative for accessibility.
+- Use QrCodeImage to encode URLs, text, or contact information for quick mobile scanning in marketing materials, event check-ins, or payment flows.
+- Use QrCodeImage when users need to transfer information from screen to mobile device without manual typing.
+- Avoid using QrCodeImage as the sole means of sharing a link; always provide a text-based alternative for accessibility.
 
 ## When Not to Use
 
@@ -48,18 +48,18 @@ None -- this component is a passive display container.
 
 ## Headless
 
-The QrCode headless component provides a `<div>` with `role="img"` and `aria-label` so screen readers can describe what the QR code encodes. The consumer provides the actual QR code rendering (SVG, canvas, or a third-party library) as children, along with all visual styling.
+The QrCodeImage headless component provides a `<div>` with `role="img"` and `aria-label` so screen readers can describe what the QR code encodes. The consumer provides the actual QR code rendering (SVG, canvas, or a third-party library) as children, along with all visual styling.
 
 
 ## Styles
 
-The consumer provides all CSS styling. The component renders with a `.qr-code` class for targeting. No default styles are included — this is a fully headless component.
+The consumer provides all CSS styling. The component renders with a `.qr-code-image` class for targeting. No default styles are included — this is a fully headless component.
 
 
 ## Testing
 
 
-- Verify the component renders a `<div>` element with class `qr-code`
+- Verify the component renders a `<div>` element with class `qr-code-image`
 - Verify role="img"` -- identifies the container as an image for assistive technologies
 - Verify aria-label` -- provides an accessible description of the QR code content, ensuring screen reader users know what the code encodes
 - Verify pass-through attributes are applied

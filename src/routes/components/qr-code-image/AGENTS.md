@@ -1,12 +1,12 @@
-# QrCode
+# QrCodeImage
 
 ## Metadata
 
-- Component: qr-code
-- PascalCase: QrCode
+- Component: qr-code-image
+- PascalCase: QrCodeImage
 - Description: a QR code image generated from text or URL data
 - HTML tag: <div>
-- CSS class: .qr-code
+- CSS class: .qr-code-image
 - Interactive: no
 
 ## Key Behaviors
@@ -32,7 +32,7 @@
 
 ## Acceptance Criteria
 
-- [ ] Renders <div> element with class="qr-code"
+- [ ] Renders <div> element with class="qr-code-image"
 - [ ] Has aria-label attribute
 - [ ] Has role="img"
 - [ ] WCAG 2.2 AAA compliant
@@ -41,6 +41,6 @@
 ## References
 
 - Documentation: index.md
-- CSS class: .qr-code in css-style-sheet-template.css
+- CSS class: .qr-code-image in css-style-sheet-template.css
 - HTML headless: lily-design-system-html-headless/components/qr-code.html
 - WAI-ARIA img Role: https://www.w3.org/TR/wai-aria-1.2/#img
