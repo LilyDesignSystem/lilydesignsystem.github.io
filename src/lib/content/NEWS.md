@@ -1,7 +1,3 @@
-<!-- Synced from the canonical repository by bin/sync-special-files.
-     Do not edit here; edit the root copy and re-run the script.
-     Canonical: https://github.com/LilyDesignSystem/lily-design-system/blob/main/NEWS.md -->
-
 # News
 
 Announcements, release highlights, project status, and press contacts for Lily
@@ -173,7 +169,7 @@ documented:
 ### Assets
 
 Screenshots, logos, and the trademark usage convention: ask by email. The
-[`assets/`](https://github.com/LilyDesignSystem/lily-design-system/tree/main/assets) directory holds what currently exists.
+[`assets/`](assets/) directory holds what currently exists.
 
 ## Citing Lily
 
@@ -188,7 +184,7 @@ This document is rendered on the website at
 newsletter or social account yet. Watch the repository on
 [GitHub](https://github.com/LilyDesignSystem/lily-design-system/), or the mirrors
 on GitLab and Codeberg. The outreach plan that would change this is written down
-in [help/outreach/index.md](https://github.com/LilyDesignSystem/lily-design-system/blob/main/help/outreach/index.md).
+in [help/outreach/index.md](help/outreach/index.md).
 
 ---
 
