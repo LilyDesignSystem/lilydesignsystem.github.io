@@ -1,14 +1,14 @@
 <!-- Synced from the canonical repository by bin/sync-special-files.
      Do not edit here; edit the root copy and re-run the script.
-     Canonical: https://github.com/LilyDesignSystem/lily-design-system/blob/main/COMPARISONS.md -->
+     Canonical: https://github.com/LilyDesignSystem/lily-design-system/blob/main/COMPARE.md -->
 
 # Comparisons
 
 How Lily Design System™ relates to the other systems in its neighbourhood, what
 it does that they do not, and — more usefully — what they do that it does not.
 
-The per-component matrix lives in [comparisons/index.md](https://github.com/LilyDesignSystem/lily-design-system/blob/main/comparisons/index.md),
-generated from [comparisons/comparisons.tsv](https://github.com/LilyDesignSystem/lily-design-system/blob/main/comparisons/comparisons.tsv): 428
+The per-component matrix lives in [compare/index.md](https://github.com/LilyDesignSystem/lily-design-system/blob/main/compare/index.md),
+generated from [compare/compare.tsv](https://github.com/LilyDesignSystem/lily-design-system/blob/main/compare/compare.tsv): 428
 component rows across 19 systems (`bin/generate-comparisons` writes the matrix and prints the counts below).
 
 ## Read the matrix carefully
